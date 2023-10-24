@@ -1,0 +1,245 @@
+*{margin: 0%;}
+
+.nav{
+    background-color: black;
+    display: flex;
+     justify-content: space-around;   
+    height: 5vh;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+}
+.icons{
+    width: 50%; 
+    display: flex;
+    justify-content : start;
+    gap: 50px;
+
+}
+.flex-icons{
+    width: 90%;
+
+}
+
+
+/* section 2 */
+
+.section2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    background-color: white;
+    gap: 20px;
+}
+.bloger-name ,p{
+ 
+    text-align: center;
+}
+
+.section2 span{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+/* section3 */
+.section3{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+    height: 100vh;
+    background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+}
+.section3 .text-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+}
+ .section3 h1{
+    color: white;
+   
+    font-size: 64px;
+
+}
+.sub-btn{
+    width: 5%;
+    height: 10%;
+}
+
+.section3 button{
+    background-color: #6161617d;
+
+  color: #000000; /* لون النص */
+  font-size: 16px; /* حجم النص */
+  padding: 10px 20px; /* الهوامش الداخلية */
+  width: 10vw;
+  text-transform: uppercase; /* تصغير النص */  
+}
+/* section 4 */
+.container{
+    width: 100vw;
+display: grid;
+grid-template-columns: auto auto;
+gap: 20px 10px;
+margin-top: 10px;
+background-color: #e2dfdd;
+}
+.container .item{
+background-color: rgb(165, 165, 169)
+;
+
+}
+.container  .item1{
+    text-align: center;
+    background-color: white;
+    grid-row: 1/2;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.item20{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 37vw;
+ 
+}
+.item1 p{
+    text-align: justify;
+  
+    
+}
+.container  .item2{
+    text-align: center;
+    background-color: white;
+    grid-row: 2/6;
+}
+.container  .item3{
+    text-align: center;
+
+    background-color: white;
+    grid-row: 6/10;
+}
+.container .item4{
+    background-color: #050505;
+    text-align: center;
+    color: #fff;
+    width: 40vw;
+    height: 60vh;
+
+}
+
+.right-pic{
+    display: flex   ;
+    flex-direction: column;
+
+}
+
+.right-pic p, h3{
+    text-align: justify;
+    display: flex;
+    margin-top: 20px;
+}
+.container .item4 img{
+  width: 100%;
+
+}
+.container h1{
+    text-align: center;
+}
+.container  .item5{
+    width: 40vw;
+background-color: #0a0a0a;
+
+}
+.container  .item5 h1{
+    color: white;
+}
+.item5-container{
+    background-color: aliceblue;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 15px 10px;
+}
+.item5-info img{
+    width: 10%;
+}
+.item5-info{
+    gap: 10px;
+    display: flex; 
+}
+.item5-text{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #616161;
+}
+
+.adv{
+    height: 40vh;
+    margin-top: 10px;
+}
+
+.adv h1{
+    text-align: justify;
+    font-size: 1.5rem;
+    background-color: #000000;
+    color: white;
+}
+
+.ad{
+    height: 100%;
+    background-color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add{
+    color: white;
+    background-color: #adacac;
+    height:90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tags h1{
+    background-color: #000000;
+    color: white;
+    text-align: justify;
+}
+
+.tags{
+
+}
+
+.item7{
+    margin-top: 20px;
+    width: 40vw;
+
+}
+.rel-tags{
+}
+
+.tags span{
+  
+}
